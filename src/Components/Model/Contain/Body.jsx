@@ -6,7 +6,7 @@ const styles = {
     height: "500px",
    // background: 'url("images/allbody/bodynew.png")',
     background: 'url("images/allbody/dog-1418283_640.png")', 
-    background-size: "342px 195px",
+    backgroundSize: "342px 195px",
     position: "absolute",
     top: "12%",
     left: "22%"
