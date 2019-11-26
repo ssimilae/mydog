@@ -3,7 +3,7 @@ import React, { Component } from "react";
 const bikiniTopClass = {
   width: "250px",
   height: "500px",
-  background: 'url("images/allbody/bikini_branew.png")',
+  background: 'url("images/allbody/bikini_branew.png") no-repeat',
   position: "absolute",
   top: "12%",
   left: "22%",
@@ -12,7 +12,7 @@ const bikiniTopClass = {
 const bikiniBottomClass = {
   width: "250px",
   height: "500px",
-  background: 'url("images/allbody/bikini_pantsnew.png")',
+  background: 'url("images/allbody/bikini_pantsnew.png") no-repeat',
   position: "absolute",
   top: "12%",
   left: "22%",
