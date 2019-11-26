@@ -5,8 +5,8 @@ export const Data = [
         type: "topclothes",
         name: "Top Cloth 1",
         desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla.",
-        imgSrc_jpg: './images/clothes/dog_cloth1.png',
-        imgSrc_png: './images/clothes/dog_cloth1.png',
+        imgSrc_jpg: './images/clothes/dog-cloth1.png',
+        imgSrc_png: './images/clothes/dog-cloth1.png',
     },
     {
         id: 'topcloth_2',
