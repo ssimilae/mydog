@@ -3,9 +3,9 @@ const styles = {
   // .body
   bodyClass: {
     width: "342px",
-    height: "500px",
+    height: "195px",
    // background: 'url("images/allbody/bodynew.png")',
-    background: 'url("images/allbody/dog-1418283_640.png") no-repeat', 
+    background: 'url("images/allbody/dog-1418283_640.png")', 
     backgroundSize: "342px 195px",
     position: "absolute",
     top: "12%",
