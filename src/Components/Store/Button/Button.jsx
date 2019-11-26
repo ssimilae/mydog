@@ -11,7 +11,7 @@ const Button = props => {
         href={`#${props.button.tabName}`}
         data-toggle="tab"
       >
-        <div className="hidden-xs">{props.button.showName}</div>
+        <div className="hidden-xs_">{props.button.showName}</div>
       </button>
     </div>
   );
