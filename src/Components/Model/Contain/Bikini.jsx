@@ -40,6 +40,7 @@ class Bikini extends Component {
             width: "500px",
             height: "1000px",
             background: `url(${this.props.selectedItem.imgSrc_png}) no-repeat`,
+            backgroundSize: "200px 100px",
             position: "absolute",
             top: "-30%",
             left: "-5%",
