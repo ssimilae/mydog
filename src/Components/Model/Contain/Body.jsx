@@ -5,11 +5,11 @@ const styles = {
     width: "342px",
     height: "500px",
    // background: 'url("images/allbody/bodynew.png")',
-    background: 'url("images/allbody/dog-1418283_640.png")', 
+    background: 'url("images/allbody/dog-1418283_640.png") no-repeat', 
     backgroundSize: "342px 195px",
     position: "absolute",
     top: "12%",
-    left: "22%"
+    left: "12%"
   }
 };
 
