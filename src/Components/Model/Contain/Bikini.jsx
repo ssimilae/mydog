@@ -47,13 +47,13 @@ class Bikini extends Component {
           };
         } else if (this.props.selectedItem.type === "botclothes") {
           styles.bikiniBottomClass = {
-            width: "500px",
-            height: "1000px",
-            background: `url(${this.props.selectedItem.imgSrc_png})`,
+            width: "627px",
+            height: "500px",
+            background: `url(${this.props.selectedItem.imgSrc_png})`, 
             position: "absolute",
-            top: "-30%",
-            left: "-5%",
-            zIndex: "5" 
+            top: "12%",
+            left: "-45%",
+            zIndex: "4", 
           };
         }
       }
