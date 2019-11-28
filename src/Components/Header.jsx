@@ -6,7 +6,7 @@ export default class Header extends Component {
           <div className="card hovercard">
             <div className="card-background" />
             <div className="useravatar">
-              <img alt="cybersoft.edu.vn" src="images/cybersoft.png" />
+              <h1>My Dog Clothing Project</h1>
             </div>
             <div className="card-info">
               {" "}
