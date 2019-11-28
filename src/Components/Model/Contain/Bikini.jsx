@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 const bikiniTopClass = {
-  width: "250px",
+  width: "627px",
   height: "500px",
-  background: 'url("images/allbody/bikini_branew.png")',
+  background: 'url("images/allbody/bikini_branew.png") no-repeat',
   position: "absolute",
   top: "12%",
-  left: "22%",
+  left: "-45%",
   zIndex: "1"
 };
 const bikiniBottomClass = {
@@ -37,12 +37,12 @@ class Bikini extends Component {
       } else {
         if (this.props.selectedItem.type === "topclothes") {
           styles.bikiniTopClass = {
-            width: "500px",
-            height: "1000px",
-            background: `url(${this.props.selectedItem.imgSrc_png})`,
+            width: "627px",
+            height: "500px",
+            background: `url(${this.props.selectedItem.imgSrc_png}) no-repeat`,
             position: "absolute",
-            top: "-30%",
-            left: "-5%",
+            top: "12%",
+            left: "-45%",
             zIndex: "3",
             transform: "scale(0.5)"
           };
