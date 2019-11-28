@@ -10,13 +10,13 @@ const bikiniTopClass = {
   zIndex: "1"
 };
 const bikiniBottomClass = {
-  width: "250px",
+   width: "627px",
   height: "500px",
-  background: 'url("images/allbody/bikini_pantsnew.png")',
+  background: 'none', 
   position: "absolute",
   top: "12%",
-  left: "22%",
-  zIndex: "1"
+  left: "-45%",
+  zIndex: "2"
 };
 class Bikini extends Component {
   render() {
