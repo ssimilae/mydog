@@ -12,8 +12,7 @@ class Necklace extends Component {
         styles.necklaceClass = {
           width: "627px",
           height: "500px",
-          background: `url(${this.props.selectedItem.imgSrc_png})`,
-          backgroundRepeat: noRepeat,
+          background: `url(${this.props.selectedItem.imgSrc_png})`, 
           position: "absolute",
           top: "12%",
           left: "-45%",
