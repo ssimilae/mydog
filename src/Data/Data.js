@@ -152,14 +152,6 @@ export const Data = [
         imgSrc_jpg: './images/necklaces/dog_pattern2.png',
         imgSrc_png: './images/necklaces/dog_pattern2.png',
     },
-    {
-        id: 'necklace_3',
-        type: "necklaces",
-        name: "Necklace 3",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla.",
-        imgSrc_jpg: './images/necklaces/necklace3_show.jpg',
-        imgSrc_png: './images/necklaces/necklace3.png',
-    },
     
     // Hairstyle
     {
