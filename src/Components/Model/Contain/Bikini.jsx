@@ -4,7 +4,7 @@ const bikiniTopClass = {
   width: "627px",
   height: "500px",
   background: 'url("images/allbody/bikini_branew.png")',
-  backgroundRepeat: no-repeat,
+  backgroundRepeat: noRepeat,
   position: "absolute",
   top: "12%",
   left: "-45%",
@@ -41,7 +41,7 @@ class Bikini extends Component {
             width: "627px",
             height: "500px",
             background: `url(${this.props.selectedItem.imgSrc_png})`,
-            backgroundRepeat: no-repeat,
+             backgroundRepeat: noRepeat,
             position: "absolute",
             top: "12%",
             left: "-45%",
@@ -55,8 +55,7 @@ class Bikini extends Component {
             position: "absolute",
             top: "-30%",
             left: "-5%",
-            zIndex: "5",
-            transform: "scale(0.5)"
+            zIndex: "5" 
           };
         }
       }
