@@ -1,11 +1,6 @@
 const buttonArr = [
-    { tabName: 'tabTopClothes', showName: 'Shirt', type: 'topclothes' },
-    { tabName: 'tabBotClothes', showName: 'Trouser', type: 'botclothes' },
-    { tabName: 'tabShoes', showName: 'Shoe', type: 'shoes' },
-    { tabName: 'tabHandBags', showName: 'Handbag', type: 'handbags' },
-    { tabName: 'tabNecklaces', showName: 'Necklace', type: 'necklaces' },
-    { tabName: 'tabHairStyle', showName: 'Hairstyle', type: 'hairstyle' },
-    { tabName: 'tabBackground', showName: 'Background', type: 'background' }
+    { tabName: 'tabTopClothes', showName: 'Color', type: 'topclothes' }, 
+    { tabName: 'tabNecklaces', showName: 'Pattern', type: 'necklaces' }, 
 ];
 
 export default buttonArr;
