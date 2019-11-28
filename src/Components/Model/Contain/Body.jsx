@@ -2,8 +2,8 @@ import React from "react";
 const styles = {
   // .body
   bodyClass: {
-    width: "250px",
-    height: "500px",
+    width: "450px",
+    height: "300px",
     background: 'url("images/allbody/dog_body.png")',
     position: "absolute",
     top: "12%",
