@@ -3,8 +3,7 @@ import React, { Component } from "react";
 const bikiniTopClass = {
   width: "627px",
   height: "500px",
-  background: 'url("images/allbody/bikini_branew.png")',
-  backgroundRepeat: noRepeat,
+  background: 'url("images/allbody/bikini_branew.png")', 
   position: "absolute",
   top: "12%",
   left: "-45%",
@@ -40,8 +39,7 @@ class Bikini extends Component {
           styles.bikiniTopClass = {
             width: "627px",
             height: "500px",
-            background: `url(${this.props.selectedItem.imgSrc_png})`,
-             backgroundRepeat: noRepeat,
+            background: `url(${this.props.selectedItem.imgSrc_png})`, 
             position: "absolute",
             top: "12%",
             left: "-45%",
