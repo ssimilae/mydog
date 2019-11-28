@@ -10,14 +10,14 @@ class Necklace extends Component {
         styles.necklaceClass = {};
       } else {
         styles.necklaceClass = {
-          width: "500px",
-          height: "1000px",
+          width: "627px",
+          height: "500px",
           background: `url(${this.props.selectedItem.imgSrc_png})`,
+          backgroundRepeat: no-repeat,
           position: "absolute",
-          top: "-30%",
-          left: "-5%",
-          zIndex: "7",
-          transform: "scale(0.5)"
+          top: "12%",
+          left: "-45%",
+          zIndex: "7", 
         };
       }
     }
