@@ -3,7 +3,7 @@ import React, { Component } from "react";
 const bikiniTopClass = {
   width: "627px",
   height: "500px",
-  background: 'url("images/allbody/bikini_branew.png")', 
+  background: 'none', 
   position: "absolute",
   top: "12%",
   left: "-45%",
