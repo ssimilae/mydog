@@ -24,30 +24,6 @@ export const Data = [
         imgSrc_jpg: './images/clothes/dog_color3.png',
         imgSrc_png: './images/clothes/dog_color3.png',
     },
-    {
-        id: 'topcloth_4',
-        type: "topclothes",
-        name: "Top Cloth 4",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla.",
-        imgSrc_jpg: './images/clothes/topcloth4_show.jpg',
-        imgSrc_png: './images/clothes/topcloth4.png',
-    },
-    {
-        id: 'topcloth_5',
-        type: "topclothes",
-        name: "Top Cloth 5",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla.",
-        imgSrc_jpg: './images/clothes/topcloth5_show.jpg',
-        imgSrc_png: './images/clothes/topcloth5.png',
-    },
-    {
-        id: 'topcloth_6',
-        type: "topclothes",
-        name: "Top Cloth ",
-        desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, nulla.",
-        imgSrc_jpg: './images/clothes/topcloth6_show.jpg',
-        imgSrc_png: './images/clothes/topcloth6.png',
-    },
 
     // Both clothes
     {
