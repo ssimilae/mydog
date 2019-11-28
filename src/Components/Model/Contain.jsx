@@ -52,14 +52,10 @@ export default class Contain extends Component {
     return (
       <div style={styles.containClass}>
         <Body />
-        <Model />
+       
         <Bikini type="top" selectedItem={this.state.topclothes} />
-        <Bikini type="bottom" selectedItem={this.state.botclothes} />
-        <Feet type="left" selectedItem={this.state.shoes} />
-        <Feet type="right" selectedItem={this.state.shoes} />
-        <Handbag selectedItem={this.state.handbags} />
-        <Necklace selectedItem={this.state.necklaces} />
-        <Hairstyle selectedItem={this.state.hairstyle} />
+        
+        <Necklace selectedItem={this.state.necklaces} /> 
       </div>
     );
   }
