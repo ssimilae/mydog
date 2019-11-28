@@ -2,12 +2,12 @@ import React from "react";
 const styles = {
   // .body
   bodyClass: {
-    width: "450px",
-    height: "300px",
+    width: "627px",
+    height: "500px",
     background: 'url("images/allbody/dog_body.png")',
     position: "absolute",
     top: "12%",
-    left: "22%"
+    left: "-45%"
   }
 };
 
