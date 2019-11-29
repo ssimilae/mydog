@@ -54,7 +54,7 @@ export default class Contain extends Component {
         <Body />
        
         <Bikini type="top" selectedItem={this.state.topclothes} />
-        
+        <Bikini type="bot" selectedItem={this.state.botclothes} />
         <Necklace selectedItem={this.state.necklaces} /> 
       </div>
     );
