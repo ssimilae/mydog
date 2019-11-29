@@ -26,13 +26,16 @@ export default class Home extends Component {
           </div>
           <hr className="style13" />
           <div className="row">
+            
+            <div className="col-lg-4 col-sm-4">
+              <Contain selectedItem={this.state.selectedItem} />
+            </div>
+            
             <div className="col-lg-8 col-sm-8">
               <BtnGroup />
               <Store getSelectedItemApp={this.getSelectedItemApp.bind(this)} />
             </div>
-            <div className="col-lg-4 col-sm-4">
-              <Contain selectedItem={this.state.selectedItem} />
-            </div>
+            
           </div>
         </div>
         <Footer />
